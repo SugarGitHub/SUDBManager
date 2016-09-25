@@ -4,7 +4,7 @@ FMDB封装,利用runtime获得字段映射，KVC赋值。直接传Model就可以
 插入更新:
 <br />
 -(BOOL)insertOrUpdateModelToDatabase:(id)model;
-- (void)insertOrUpdateManysModelToDatabase:(NSArray *)arr isSuc:(void(^)(BOOL isSuc))isSucBLock;
+-(void)insertOrUpdateManysModelToDatabase:(NSArray *)arr isSuc:(void(^)(BOOL isSuc))isSucBLock;
 
 <br />
 删除:
