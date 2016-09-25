@@ -4,9 +4,9 @@ FMDB封装,利用runtime获得字段映射，KVC赋值。直接传Model就可以
 插入更新:
 <br />
 -(BOOL)insertOrUpdateModelToDatabase:(id)model;
-<br />
 -(void)insertOrUpdateManysModelToDatabase:(NSArray *)arr isSuc:(void(^)(BOOL isSuc))isSucBLock;
 <br />
+
 删除:
 <br />
 - (BOOL)deleteModelInDatabase:(id)model;
@@ -14,6 +14,7 @@ FMDB封装,利用runtime获得字段映射，KVC赋值。直接传Model就可以
 - (BOOL)deleteModelInDatabase:(id)model withPredicate:(NSString *)predicate;
 - (BOOL)deleteModelTableInDatabase:(id)model;
 <br />
+
 获取：
 <br />
 - (NSMutableArray *)selectAllModelInDatabase:(Class)model;
