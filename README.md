@@ -1,7 +1,7 @@
 # SUDBManager
 FMDB封装,利用runtime获得字段映射，KVC赋值。直接传Model就可以进行CRUD操作
 <br />
-插入更新:
+插入或更新:
 <br/>
 -(BOOL)insertOrUpdateModelToDatabase:(id)model;
 <br />
