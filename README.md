@@ -22,5 +22,6 @@ FMDB封装,利用runtime获得字段映射，KVC赋值。直接传Model就可以
 获取：
 <br />
 -(NSMutableArray *)selectAllModelInDatabase:(Class)model;
+<br />
 -(NSMutableArray *)selectModelInDatabase:(Class)model withPredicate:(NSString *)predicate;
 
